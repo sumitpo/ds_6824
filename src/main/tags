@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/spectre/labs/mit6824/6.824/src/main/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+ByKey	mrsequential.go	/^type ByKey []mr.KeyValue$/;"	t	package:main	typeref:typename:[]mr.KeyValue
+Len	mrsequential.go	/^func (a ByKey) Len() int           { return len(a) }$/;"	f	type:main.ByKey	typeref:typename:int
+Less	mrsequential.go	/^func (a ByKey) Less(i, j int) bool { return a[i].Key < a[j].Key }$/;"	f	type:main.ByKey	typeref:typename:bool
+Swap	mrsequential.go	/^func (a ByKey) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }$/;"	f	type:main.ByKey
+loadPlugin	mrsequential.go	/^func loadPlugin(filename string) (func(string, string) []mr.KeyValue, func(string, []string) str/;"	f	package:main	typeref:typename:(func(string, string) []mr.KeyValue, func(string, []string) string)
+loadPlugin	mrworker.go	/^func loadPlugin(filename string) (func(string, string) []mr.KeyValue, func(string, []string) str/;"	f	package:main	typeref:typename:(func(string, string) []mr.KeyValue, func(string, []string) string)
+main	diskvd.go	/^func main() {$/;"	f	package:main
+main	diskvd.go	/^package main$/;"	p
+main	lockc.go	/^func main() {$/;"	f	package:main
+main	lockc.go	/^package main$/;"	p
+main	lockd.go	/^func main() {$/;"	f	package:main
+main	lockd.go	/^package main$/;"	p
+main	mrcoordinator.go	/^func main() {$/;"	f	package:main
+main	mrcoordinator.go	/^package main$/;"	p
+main	mrsequential.go	/^func main() {$/;"	f	package:main
+main	mrsequential.go	/^package main$/;"	p
+main	mrworker.go	/^func main() {$/;"	f	package:main
+main	mrworker.go	/^package main$/;"	p
+main	pbc.go	/^func main() {$/;"	f	package:main
+main	pbc.go	/^package main$/;"	p
+main	pbd.go	/^func main() {$/;"	f	package:main
+main	pbd.go	/^package main$/;"	p
+main	viewd.go	/^func main() {$/;"	f	package:main
+main	viewd.go	/^package main$/;"	p
+usage	diskvd.go	/^func usage() {$/;"	f	package:main
+usage	lockc.go	/^func usage() {$/;"	f	package:main
+usage	pbc.go	/^func usage() {$/;"	f	package:main
